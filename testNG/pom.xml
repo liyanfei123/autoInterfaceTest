@@ -31,4 +31,15 @@
 
     </dependencies>
 
+    <suit>
+        <test>
+            <class>
+                <method>
+
+                </method>
+            </class>
+        </test>
+    </suit>
+
+
 </project>

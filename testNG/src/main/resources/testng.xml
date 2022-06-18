@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="test">
+    <parameter name="param1" value="value1"/>
+    <parameter name="param2" value="value2"/>
+
+    <test name="testParameter">
+        <classes>
+            <class name="test.ParameterTest"/>
+        </classes>
+    </test>
+    <!--<test name="testOne">-->
+    <!--    <classes>-->
+    <!--        <class name="suite.SuiteConfig"/>-->
+    <!--        <class name="suite.MyTestOne"/>-->
+    <!--        <class name="suite.MyTestTwo"/>-->
+    <!--    </classes>-->
+    <!--</test>-->
+
+    <!--<test name="testTwo">-->
+    <!--    <classes>-->
+    <!--        <class name="suite.SuiteConfig"/>-->
+    <!--        <class name="suite.MyTestTwo"/>-->
+    <!--    </classes>-->
+    <!--</test>-->
+
+</suite>
+
