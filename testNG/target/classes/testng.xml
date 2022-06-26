@@ -6,7 +6,7 @@
 
     <test name="testParameter">
         <classes>
-            <class name="suite.ParameterTest"/>
+            <class name="test.ParameterTest"/>
         </classes>
     </test>
     <!--<test name="testOne">-->

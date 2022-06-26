@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="suiteName">
+    <test name="groups">
+        <classes>
+            <class name="test.GroupsOnClass1"/>
+            <class name="test.GroupsOnClass2"/>
+            <class name="test.GroupsOnClass3"/>
+        </classes>
+    </test>
+</suite>

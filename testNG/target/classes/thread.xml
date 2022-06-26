@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="thread">
+
+    <test name="demo1" parallel="methods" thread-count="2"> <!--parallel表示多线程级别，此处表示多线程级别为方法级别，线程数为2-->
+        <classes>
+            <class name="test.MultiThreadOnXML"/>
+        </classes>
+    </test>
+
+
+</suite>

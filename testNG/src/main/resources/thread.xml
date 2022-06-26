@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="thread">
+
+    <test name="demo1" parallel="methods" thread-count="2">
+        <!--parallel表示多线程级别，thread-count表示最大并发线程数，但不意味着在执行时，一定会使用这么多个线程
+        methods级别：所有用例都可以在不同都线程下去执行，只有在methods级别上
+        tests级别：相同test标签下的用例只能在同一个线程中去执行，不同test标签下的用例可以在不同的线程下执行
+        classes级别：相同的class标签下的用例在同一个线程中执行，不同class标签下的用例可以在不同的线程下执行，在使用classes级别时，需注意使用name来区分
+        -->
+        <classes nam="class1">
+            <class name="test.MultiThreadOnXML"/>
+        </classes>
+    </test>
+
+</suite>
