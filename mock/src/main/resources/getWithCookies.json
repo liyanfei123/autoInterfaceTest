@@ -1,0 +1,29 @@
+[
+  {
+    "description": "模拟带cookies的get请求",
+    "request": {
+      "uri": "/get/with/cookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "这是一个需要cookies的get请求"
+    }
+  },
+
+  {
+    "description": "这是一个会返回cookies信息的get请求",
+    "request": {
+      "uri": "/return/cookies",
+      "method": "get"
+    },
+    "response": {
+      "cookies": {
+        "login": "true"
+      },
+      "text": "获取cookies信息成功"
+    }
+  }
+]

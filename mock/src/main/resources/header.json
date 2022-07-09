@@ -1,0 +1,27 @@
+[
+  {
+    "description": "这是个带header的post",
+    "request": {
+      "uri": "/header",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json": {
+        "test": true
+      }
+    },
+      "response": {
+        "json": {
+          "status": 200,
+          "data": [
+            {
+              "index": 0,
+              "msg": "true"
+            }
+          ]
+
+        }
+      }
+    }
+]
