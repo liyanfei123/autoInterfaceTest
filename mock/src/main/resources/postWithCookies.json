@@ -1,8 +1,23 @@
 [
+
+  {
+    "description": "这是一个会返回cookies信息的get请求",
+    "request": {
+      "uri": "/user/login",
+      "method": "get"
+    },
+    "response": {
+      "cookies": {
+        "login": "true"
+      },
+      "text": "获取cookies信息成功"
+    }
+  },
+
   {
     "description": "模拟带cookies的post请求",
     "request": {
-      "uri": "/post/with/cookies",
+      "uri": "/user/gohome",
       "method": "post",
       "cookies": {
         "login": "true"

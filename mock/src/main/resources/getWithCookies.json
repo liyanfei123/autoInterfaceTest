@@ -2,7 +2,7 @@
   {
     "description": "模拟带cookies的get请求",
     "request": {
-      "uri": "/get/with/cookies",
+      "uri": "/user/center",
       "method": "get",
       "cookies": {
         "login": "true"
@@ -16,7 +16,7 @@
   {
     "description": "这是一个会返回cookies信息的get请求",
     "request": {
-      "uri": "/return/cookies",
+      "uri": "/user/login",
       "method": "get"
     },
     "response": {
