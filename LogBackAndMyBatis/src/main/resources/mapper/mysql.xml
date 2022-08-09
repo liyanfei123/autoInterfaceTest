@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.logbackandmybatis.model.mapper" >
+
+    <!--<select id="getUserCount" resultType="Integer">-->
+    <!--    select count(*) from user;-->
+    <!--</select>-->
+
+    <!--<insert id="addUser" parameterType="com.example.logbackandmybatis.model.entity.UserEntity">-->
+    <!--    insert into user(id, name, age)-->
+    <!--    values(#{id}, #{name}, #{age})-->
+    <!--</insert>-->
+
+    <!--<update id="updateUser" parameterType="com.example.logbackandmybatis.model.entity.UserEntity">-->
+    <!--    update user set name =#{name}, age=#{age} where id=#{id}-->
+    <!--</update>-->
+
+
+    <!--<delete id="delUser" parameterType="Integer">-->
+    <!--   delete from user where id=#{id}-->
+    <!--</delete>-->
+
+    <select id="loginCase" parameterType="Integer" resultType="com.example.logbackandmybatis.model.entity.LoginCaseEntity">
+        select * from loginCase
+        where id=#{id}
+    </select>
+
+
+    <select id="addUserCase" parameterType="Integer" resultType="com.example.logbackandmybatis.model.entity.AddUserCaseEntity">
+        select * from addUserCase
+        where id=#{id}
+    </select>
+
+    <select id="getUserInfoCase" parameterType="Integer" resultType="com.example.logbackandmybatis.model.entity.GetUserInfoEntity">
+        select * from getUserInfoCase
+        where id=#{id}
+    </select>
+
+    <select id="getUserListCase" parameterType="Integer" resultType="com.example.logbackandmybatis.model.entity.GetUserInfoListEntity">
+        select * from getUserListCase
+        where id=#{id}
+    </select>
+
+    <select id="updateUserInfoCase" parameterType="Integer" resultType="com.example.logbackandmybatis.model.entity.UpdateUserInfoCaseEntity">
+        select * from updateUserInfoCase
+        where id=#{id}
+    </select>
+
+    <select id="deleteUser" parameterType="Integer" resultType="com.example.logbackandmybatis.model.entity.UpdateUserInfoCaseEntity">
+        select * from updateUserInfoCase
+        where id=#{id}
+    </select>
+
+</mapper>

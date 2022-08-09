@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="用户管理系统测试套件">
+
+
+    <test name="用户管理系统测试用例">
+        <classes>
+            <class name="com.example.logbackandmybatis.cases.LoginTest">
+                <methods>
+                    <include name="loginTrue"/>
+                    <include name="loginFail"/>
+                </methods>
+            </class>
+
+            <class name="com.example.logbackandmybatis.cases.AddUserCase">
+                <methods>
+                    <include name="addUser"/>
+                </methods>
+            </class>
+
+            <class name="com.example.logbackandmybatis.cases.GetUserInfoCase">
+                <methods>
+                    <include name="getUserInfo"/>
+                </methods>
+            </class>
+
+            <class name="com.example.logbackandmybatis.cases.GetUserInfoListCase">
+                <methods>
+                    <include name="getUserListInfo"/>
+                </methods>
+            </class>
+
+            <class name="com.example.logbackandmybatis.cases.UpdateUserInfoCase">
+                <methods>
+                    <include name="updateUserInfo"/>
+                    <include name="deleteUser"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.example.logbackandmybatis.config.ExtentTestNGReporterListener"/>
+    </listeners>
+
+</suite>
